@@ -6,8 +6,8 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 const Home = () => {
     return (
         <div>
-            <h1>About Me</h1>  
-            <p>This is the home page of my portfolio.</p>
+            <h1>PJSK Score posting</h1>  
+            <p>User : laoloser</p>
             <div class="button-container">
             <ButtonGroup aria-label="Basic example">
             <Button variant="secondary">Home</Button>{'  '}
