@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  text-align: center;
+  margin: 10% auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,18 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    text-align: center;
+}
+
+.score-images {
+  display:flex;
+  justify-content: center;
+  margin: 10px auto;
+  padding: 20px;
+  background-color:lightgray;
+  width:50%;
+}
+
+div {
+  text-align: center;
 }

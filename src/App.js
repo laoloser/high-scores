@@ -4,6 +4,9 @@ import Home from './components/Home';
 import RecentScores from './components/RecentScores';
 import HighScores from './components/HighestScores';
 import NoteworthyScores from './components/NoteworthyScores';
+import './App.css';
+import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (

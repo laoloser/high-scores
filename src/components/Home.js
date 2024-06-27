@@ -1,14 +1,21 @@
 import React from 'react';
 import { Link }  from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
 const Home = () => {
     return (
         <div>
             <h1>About Me</h1>  
             <p>This is the home page of my portfolio.</p>
-            <Link to="/recent-scores"><button>Recent Scores</button></Link> 
-            <Link to="/high-scores"> <button>Highest Scores</button></Link>
-            <Link to="/noteworthy-scores"><button>Noteworthy Scores</button></Link>
+            <div class="button-container">
+            <ButtonGroup aria-label="Basic example">
+            <Button variant="secondary">Home</Button>{'  '}
+            <Link to="/recent-scores"><Button variant="outline-secondary">Recent Scores</Button>{'  '}</Link> 
+            <Link to="/high-scores"><Button variant="outline-secondary">Highest Scores</Button>{'  '}</Link>
+            <Link to="/noteworthy-scores"><Button variant="outline-secondary">Noteworthy Scores</Button>{'  '}</Link>
+            </ButtonGroup>
+            </div>
         </div>
     );
 };
